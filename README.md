@@ -1,7 +1,8 @@
 # Bamazon-App
 # Introduction
 This is an Amazon-like storefront app with MySQL and NODE.js. This app will take orders from customers and deplete stock from the store's inventory
-#How the app works
+
+# How the app works
 
 Once the app is run it will show all the available items for sale and prompt the user to choose the id of the product and desired quantity of the product to purchase:
 <img width="763" alt="screen shot 2018-11-04 at 9 18 48 pm" src="https://user-images.githubusercontent.com/41714437/47976370-b9ef5500-e077-11e8-9dca-709296546dcf.png">
