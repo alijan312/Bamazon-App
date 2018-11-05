@@ -74,9 +74,10 @@ function productSale() {
                         }
                     ],
                     function (err, res) {
+                        if (err) throw err;
                         console.log(chalk.bgGreen('YOU HAVE PURCHASED ' + answer.quantity + ' ITEM/S.'));
                         console.log(chalk.bgCyan('YOUR TOTAL COST IS: $' + totalCost.toFixed(2)));
-                        productSale();
+                        initialize();
                     });
                 
             }
